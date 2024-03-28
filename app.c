@@ -1,6 +1,11 @@
 #include <stdio.h>
+#include "functions.h" // Inclui as definições de funções
 
 int main() {
-    printf("Hello, World!\n");
-    return 0;
+    Header();
+    BinaryToDecimal();
+
+    return 0;   
 }
+
+
