@@ -23,7 +23,6 @@ Em seguida, vinculamos os arquivos objeto em um binário executável:
 
 gcc app.o functions.o -o Bin2Dez.exe
 
-
 A opção `-o` define o nome do binário de saída; nesse caso, **Bin2Dez.exe**.
 
 Agora, possuímos um arquivo executável final, **Bin2Dez.exe**, que pode ser executado em ambientes suportados por C (como Linux, Windows, macOS, etc.).
